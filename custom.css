@@ -1,6 +1,10 @@
 @import 'https://fonts.googleapis.com/css?family=Lato';
 @import 'https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap';
 
+.byline {
+    text-align: center;
+}
+
 .reveal-viewport {
    background: #fff;
    background-color: #fff; 
