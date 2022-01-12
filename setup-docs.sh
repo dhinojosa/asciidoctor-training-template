@@ -19,7 +19,7 @@ npx asciidoctor-revealjs main.asc
 
 mv main.html dist/$1.html
 
-zip dist/$1-slides.zip -r images $1.html
+zip dist/$1-slides.zip -r images dist/$1.html
 
 # Desktape
 
