@@ -1,25 +1,24 @@
 {
-  "name": "cypress-training",
+  "name": "asciidoctor-training-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "This uses asciidoctor for training material. This is a template. Fork this repository and create your material based off of this template",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dhinojosa/cypress-training.git"
+    "url": "git+https://github.com/dhinojosa/asciidoctor-training-template.git"
   },
   "keywords": [],
   "author": "= <=>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dhinojosa/cypress-training/issues"
+    "url": "https://github.com/dhinojosa/asciidoctor-training-template/issues"
   },
-  "homepage": "https://github.com/dhinojosa/cypress-training#readme",
+  "homepage": "https://github.com/dhinojosa/asciidoctor-training-template/#readme",
   "dependencies": {
     "@asciidoctor/reveal.js": "^5.0.0-rc.1",
-    "asciidoctor": "^2.2.5",
-    "@asciidoctor/cli": "^3.5.0"
+    "asciidoctor": "^2.2.5"
   }
 }
