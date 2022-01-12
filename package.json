@@ -1,0 +1,24 @@
+{
+  "name": "cypress-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhinojosa/cypress-training.git"
+  },
+  "keywords": [],
+  "author": "= <=>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhinojosa/cypress-training/issues"
+  },
+  "homepage": "https://github.com/dhinojosa/cypress-training#readme",
+  "dependencies": {
+    "@asciidoctor/reveal.js": "^5.0.0-rc.1",
+    "asciidoctor": "^2.2.5"
+  }
+}

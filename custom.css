@@ -1,0 +1,89 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap';
+
+.reveal-viewport {
+   background: #fff;
+   background-color: #fff; 
+   color: black;
+   font-family: Lato;
+}
+
+p { text-align: left; }
+
+p.author {
+   text-align: center;
+}
+.reveal {
+   font-family: Lato;
+   font-size: 1.5em;
+   font-weight: normal;
+   color: black; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+   margin: 0 0 20px 0;
+   color: orange;
+   font-family: Lato;
+   font-weight: 600;
+   line-height: 1.2;
+   letter-spacing: normal;
+   text-shadow: none;
+   word-wrap: break-word; }
+
+.reveal table {
+   font-size: .75em;
+}
+
+.reveal code, .reveal samp, .reveal kbd {
+  font-family: "Source Code Pro", "Courier New", Courier, monospace, sans-serif;
+  text-align: left;
+  color: #555;
+}
+
+.reveal pre code {
+  line-height: 1.6em;
+  font-size: 16px;
+}
+.reveal pre {
+  padding: 0.1em 0.5em 0.3em 0.7em;
+  border-left: 11px solid #ccc;
+  margin: 1.7em 0 1.7em 0.3em;
+  overflow: auto;
+  width: 93%;
+}
+/* target IE7 and IE6 */
+.reveal *:first-child+html pre {
+  padding-bottom: 2em;
+  overflow-y: hidden;
+  overflow: visible;
+  overflow-x: auto;
+}
+.reveal * html pre {
+  padding-bottom: 2em;
+  overflow: visible;
+  overflow-x: auto;
+}
+
+.reveal pre span {
+   counter-increment: line;
+}
+
+section.orange.background {
+  background-color: orange;
+  color: white;
+}
+
+// Used to print white background for slides
+@media print {
+    .slide-background {
+        background-color: white !important;
+        -webkit-print-color-adjust: exact; 
+    }
+}
