@@ -4,9 +4,8 @@ This uses asciidoctor for training material. This is a template. Fork this repos
 
 ## How to run
 
-```sh
-$ ./setup-docs.sh <topic>
-```
+1. Make `./setup-docs.sh` executable with `chmod +x ./setup-docs.sh`
+2. Run `./setup-docs.sh <topic>`
 
 Where topic is the name of the material you are wanting to create
 

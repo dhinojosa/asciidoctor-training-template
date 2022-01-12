@@ -1,28 +1,28 @@
 #!/bin/zsh
 # Run asciidoctor for docs.zip
-asciidoctor -b html git.asc
+asciidoctor -b html $1.asc
 
 # Zip the docs.zip
 
-zip docs.zip -r images git.html
+zip docs.zip -r images $1.html
 
 # Run asciidoctor for slides.zip
 
-npx asciidoctor-revealjs git.asc
+npx asciidoctor-revealjs $1.asc
 
 # Zip the slides
 
-zip slides.zip -r images git.html
+zip $1-slides.zip -r images $1.html
 
 # Desktape
 
-decktape reveal -s '1440x900' git.html git.pdf
+decktape reveal -s '1440x900' $1.html $1.pdf
 
 # Lab-book
 
-asciidoctor -b html lab_book.asc
+asciidoctor -b html $1-lab_book.asc
 
 # Zip the lab book
 
-zip lab_book.zip -r images lab_book.html
+zip $1-lab_book.zip -r images $1-lab_book.html
 
