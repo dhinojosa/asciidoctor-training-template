@@ -5,6 +5,17 @@
     text-align: center;
 }
 
+.green {
+   color:green;
+   font-weight: bolder;
+   font-size: 1.5em;
+}
+
+.red {
+   color:red;
+   font-weight: bold;
+}
+
 .reveal-viewport {
    background: #fff;
    background-color: #fff; 
