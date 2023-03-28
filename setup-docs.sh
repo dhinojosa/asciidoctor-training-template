@@ -2,14 +2,12 @@
 
 basename=$(basename "$PWD")
 
-npx asciidoctor-revealjs main.asc
+docker run --rm -v "$(pwd)":/documents/ asciidoctor/docker-asciidoctor asciidoctor-revealjs -a revealjsdir=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2 main.adoc
 
 mv main.html $basename.html
 
-asciidoctor -b html lab_book.asc
+docker run --rm -v "$(pwd)":/documents/ asciidoctor/docker-asciidoctor asciidoctor -b html lab_book.adoc
 
-# Zip the material
-#
 pushd ..
-zip $basename/$basename.zip -r $basename/images $basename/git.html $basename/*.css $basename/node_modules/**/* $basename/lab_book.html
-popd
+zip $basename/$basename.zip -r $basename/images $basename/$basename.html $basename/*.css $basename/lab_book.html
+popd || exit

@@ -18,8 +18,8 @@ Daniel Hinojosa
 :underscore: _
 :toc: left
 
-include::labs/install.asc[]
+include::labs/install.adoc[]
 
-include::labs/initialize.asc[]
+include::labs/initialize.adoc[]
 
-include::labs/run.asc[]
+include::labs/run.adoc[]

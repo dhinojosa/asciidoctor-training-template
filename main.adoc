@@ -1,4 +1,4 @@
-= Learning Git
+= Learning Title
 Daniel Hinojosa
 :icons: font
 :imagesdir: ./images
@@ -15,14 +15,16 @@ Daniel Hinojosa
 :revealjs_hash: true
 :source-highlighter: highlightjs
 :highlightjs-theme: color-brewer.css
+:highlightjs-languages: rust, swift
+:experimental:
+:revealjs_theme: white
 
+include::chapters/intro.adoc[]
 
-include::chapters/intro.asc[]
-
-include::chapters/topic1.asc[]
+include::chapters/topic1.adoc[]
 
 == Lab: Topic 1
 
-include::chapters/topic2.asc[]
+include::chapters/topic2.adoc[]
 
 == Lab: Topic 2
