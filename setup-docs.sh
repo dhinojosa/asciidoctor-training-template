@@ -11,3 +11,4 @@ docker run --rm -v "$(pwd)":/documents/ asciidoctor/docker-asciidoctor asciidoct
 pushd ..
 zip $basename/$basename.zip -r $basename/images $basename/$basename.html $basename/*.css $basename/lab_book.html
 popd || exit
+

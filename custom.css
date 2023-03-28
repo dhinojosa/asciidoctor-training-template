@@ -9,43 +9,43 @@
 }
 
 .green {
-   color:green;
-   font-weight: bolder;
-   font-size: 1.5em;
+    color:green;
+    font-weight: bolder;
+    font-size: 1.5em;
 }
 
 .red {
-   color:red;
-   font-weight: bold;
+    color:red;
+    font-weight: bold;
 }
 
 .reveal-viewport {
-   background: #fff;
-   background-color: #fff; 
-   color: black;
-   font-family: Lato;
+    background: #fff;
+    background-color: #fff;
+    color: black;
+    font-family: Lato, sans-serif;
 }
 
 p.author {
-   text-align: center;
+    text-align: center;
 }
 .reveal {
-   font-family: Lato;
-   font-size: 1.5em;
-   font-weight: normal;
-   color: black; }
+    font-family: Lato, sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: black; }
 
 b.button {
-   font-family:"Baloo Thambi 2";
-   font-size: 1em;
+    font-family: "Baloo Thambi 2", serif;
+    font-size: 1em;
 }
 
 b.button:before {
-   content: "[ ";
+    content: "[ ";
 }
 
 b.button:after {
-   content: " ]";
+    content: " ]";
 }
 
 /*********************************************
@@ -57,14 +57,14 @@ b.button:after {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-   margin: 0 0 20px 0;
-   color: #5D87A1;
-   font-family: Lato;
-   font-weight: 600;
-   line-height: 1.2;
-   letter-spacing: normal;
-   text-shadow: none;
-   word-wrap: break-word; }
+    margin: 0 0 20px 0;
+    color: #5D87A1;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-shadow: none;
+    word-wrap: break-word; }
 
 .reveal blockquote {
     text-align: justify;
@@ -76,18 +76,18 @@ b.button:after {
     padding: 5px;
     font-style: italic;
     background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0px 0px 0px rgb(0 0 0 / 20%); */
+    box-shadow: 0px 0px 0px rgb(0 0 0 / 20%);
 }
 
 .reveal table.tableblock {
-   border-collapse: collapse;
-   margin: 25px 0;
-   font-size: 0.7em;
-   min-width: 400px;
-   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.7em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 div.admonitionblock table {
-   border: 0;
+    border: 0;
 }
 .reveal table.tableblock thead tr {
     background-color: #5D87A1;
@@ -118,52 +118,51 @@ div.admonitionblock table {
 }
 
 .reveal code, .reveal samp, .reveal kbd {
-  font-family: "Source Code Pro", "Courier New", Courier, monospace, sans-serif;
-  text-align: left;
-  color: #555;
+    font-family: "Source Code Pro", "Courier New", Courier, monospace, sans-serif;
+    text-align: left;
+    color: #555;
 }
 
 .reveal pre code {
-  line-height: 1.6em;
-  font-size: 16px;
+    line-height: 1.6em;
+    font-size: 16px;
 }
 .reveal pre {
-  padding: 0.1em 0.5em 0.3em 0.7em;
-  border-left: 11px solid #ccc;
-  margin: 1.7em 0 1.7em 0.3em;
-  overflow: auto;
-  width: 93%;
+    padding: 0.1em 0.5em 0.3em 0.7em;
+    border-left: 11px solid #ccc;
+    margin: 1.7em 0 1.7em 0.3em;
+    overflow: auto;
+    width: 93%;
 }
 /* target IE7 and IE6 */
 .reveal *:first-child+html pre {
-  padding-bottom: 2em;
-  overflow-y: hidden;
-  overflow: visible;
-  overflow-x: auto;
+    padding-bottom: 2em;
+    overflow-y: hidden;
+    overflow: visible;
+    overflow-x: auto;
 }
 .reveal * html pre {
-  padding-bottom: 2em;
-  overflow: visible;
-  overflow-x: auto;
+    padding-bottom: 2em;
+    overflow: visible;
+    overflow-x: auto;
 }
 
 .reveal pre span {
-   counter-increment: line;
+    counter-increment: line;
 }
 
 section.orange.background {
-  background-color: #5D87A1;
-  color: white;
+    background-color: #5D87A1;
+    color: white;
 }
 
-// Used to print white background for slides
 @media print {
     .slide-background {
         background-color: white !important;
-        -webkit-print-color-adjust: exact; 
+        -webkit-print-color-adjust: exact;
     }
 }
 
 .listingblock {
-  font-size: .5em;
+    font-size: .5em;
 }
