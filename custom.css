@@ -1,5 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Lato';
 @import 'https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap';
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;1,500&display=swap');
+@import 'https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap';
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 
 .byline {
     text-align: center;
@@ -23,8 +26,6 @@
    font-family: Lato;
 }
 
-p { text-align: left; }
-
 p.author {
    text-align: center;
 }
@@ -33,6 +34,19 @@ p.author {
    font-size: 1.5em;
    font-weight: normal;
    color: black; }
+
+b.button {
+   font-family:"Baloo Thambi 2";
+   font-size: 1em;
+}
+
+b.button:before {
+   content: "[ ";
+}
+
+b.button:after {
+   content: " ]";
+}
 
 /*********************************************
  * HEADERS
@@ -44,7 +58,7 @@ p.author {
 .reveal h5,
 .reveal h6 {
    margin: 0 0 20px 0;
-   color: orange;
+   color: #5D87A1;
    font-family: Lato;
    font-weight: 600;
    line-height: 1.2;
@@ -52,8 +66,55 @@ p.author {
    text-shadow: none;
    word-wrap: break-word; }
 
-.reveal table {
-   font-size: .75em;
+.reveal blockquote {
+    text-align: justify;
+    display: block;
+    font-family: "Alegreya",cursive;
+    position: relative;
+    width: 70%;
+    margin: var(--r-block-margin) auto;
+    padding: 5px;
+    font-style: italic;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0px 0px 0px rgb(0 0 0 / 20%); */
+}
+
+.reveal table.tableblock {
+   border-collapse: collapse;
+   margin: 25px 0;
+   font-size: 0.7em;
+   min-width: 400px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+div.admonitionblock table {
+   border: 0;
+}
+.reveal table.tableblock thead tr {
+    background-color: #5D87A1;
+    color: #ffffff;
+    text-align: left;
+}
+
+.reveal table.tableblock th,
+.reveal table.tableblock td {
+    padding: 5px 5px;
+}
+
+.reveal table.tableblock tbody tr {
+    border-bottom: thin solid #dddddd;
+}
+
+.reveal table.tableblock tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.reveal table.tableblock tbody tr:last-of-type {
+    border-bottom: thin solid #009879;
+}
+
+.reveal table.tableblock tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
 }
 
 .reveal code, .reveal samp, .reveal kbd {
@@ -91,7 +152,7 @@ p.author {
 }
 
 section.orange.background {
-  background-color: orange;
+  background-color: #5D87A1;
   color: white;
 }
 
@@ -101,4 +162,8 @@ section.orange.background {
         background-color: white !important;
         -webkit-print-color-adjust: exact; 
     }
+}
+
+.listingblock {
+  font-size: .5em;
 }
