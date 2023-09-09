@@ -173,3 +173,11 @@ section.orange.background {
 .listingblock {
     font-size: .5em;
 }
+
+.text-center {
+    text-align: center;
+}
+
+div.admonitionblock > table {
+    border: 0;
+}
