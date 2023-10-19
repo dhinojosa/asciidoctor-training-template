@@ -1,37 +1,34 @@
 == Introduction to Main
 
-=== What is Main?
+=== Bullet List
 
-* Main is a open source end-to-end test runner
+* Main is an open source end-to-end test runner
 * Main is a JavaScript Alternative to Java's Selenium
 
 [.columns]
-=== What is Cypress? (cont.)
+=== Multicolumn
 [.column]
 --
-* All in one inclusive testing framework
-* For both developers and QA engineers
-* Native access to everything
+* One
+* Two
+* Three
 --
 
 [.column]
 --
-* Works on any frontend framework or website 
-* Written in JavaScript
-
+* Four
+* Five
 --
 
-[.columns]
-=== Cypress Features
-[.column]
-* Time travel and debugging 
-* Spies, stubs, clocks 
-* Automatic waiting 
+=== View Table
 
-[.column]
-* Network traffic controls 
-* Reliable and Fast 
-* Screenable and videos 
+[cols="6a*", options="header", stripes="even"]
+|===
+|Subdomain type|	Competitive advantage|	Complexity	|Volatility	 |Implementation	| Problem
+|Core	       | Yes  | High	| High	  | In-house	                                | Interesting
+|Generic	   | No	  | High	| Low	  | Buy/adopt	                                | Solved
+|Supporting	   | No	  | Low	    |  Low	  | In-house/outsource                           | Obvious
+|===
 
 === Some code
 
@@ -39,3 +36,43 @@
 ----
 $ yes, code!
 ----
+
+=== Images
+
+image::stop.png[]
+
+=== Attribution
+
+* One
+* Two
+* Three
+
+[.listingblock]
+--
+Source: Some Book
+--
+
+=== Quote
+
+.Bob Box, Some Event, 2022
+____
+"Models shouldn’t necessarily be big or small. Models need to be useful."
+____
+
+=== Keyboard & Menu & Button
+
+* Hit kbd:[CTRL+A]
+* Go to menu:File[Save > As PDF]
+* Press btn:[OK]
+
+=== Admonitions
+
+NOTE: This is a note
+
+TIP: This is a tip
+
+IMPORTANT: This is important
+
+CAUTION: This is a caution
+
+WARNING: This is a warning
