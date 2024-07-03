@@ -272,3 +272,7 @@ section[data-state="title"] h2 {
     position: relative;
     left: unset;
 }
+
+.small {
+    font-size: smaller;
+}
